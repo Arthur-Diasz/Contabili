@@ -60,7 +60,7 @@ $(document).ready(function() {
       { value: 35, text: '' }
     ]; // Valores finais e textos correspondentes
   
-    var duration = 2000; // Duração da animação em milissegundos
+    var duration = 5500; // Duração da animação em milissegundos
   
     function animateValue(element, targetValue, text) {
       $({ count: 0 }).animate({ count: targetValue }, {
